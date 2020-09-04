@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+#logo-cont{
+    display: flex;
+    flex-direction: column;
+}
+#logo-cont #name{
+    color: azure;
+
+}
+#logo {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    margin: 0px 18px;
+    font-size: 16px;
+    margin-right:370px;
+}
+#logo #name{
+    font-size: 10px;
+
+}
+
+#logo img {
+    filter: invert(100%);
+    height: 35px;
+}
+.card-img img{
+    height: 70px;
+    padding: 0px 0px;
+    margin-right: 15px;
+    margin-left: 3px;
+
+
+}
+.card-box{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 8px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    font-family: 'Rowdies', cursive;
+}
+
+#navbar {
+    background-color: #232245;
+    padding: 14px 16px;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: white;
+    font-size: 26px;
+    padding: 15px 15px;
+    margin-left: 30px;
+
+}
+
+#navbar li a:hover {
+    color: #ffffffcf;
+}
+
+#introSection {
+    display: flex;
+    flex-direction: column;
+    background: center bottom / cover no-repeat url("/static/bg2.jpg");
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-position: 0px -1102px;
+    background-blend-mode: ;
+    padding-bottom: 160px;
+    height: 643px;
+    font-family: 'Noto Serif', serif;
+    font-size: 45px;
+}
+
+.small {
+    font-size: 30px;
+}
+
+#missionSection {
+    color: black;
+    height: 315px;
+    width: 67%;
+    margin: auto;
+}
+
+.mainh {
+    font-size: 1.9em;
+    font-family: 'Recursive', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: solid;
+}
+
+.card h3 {
+    text-align: center;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cont {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 30%;
+    margin: 15px auto;
+    height: 240px;
+    background-color: #eae4db3b;
+}
+
+#sponserSection {
+    background-color: #232245b3;
+    color: black;
+    margin-top:2.8rem;
+    height: 275px;
+}
+#sponsers{
+    display: flex;
+    justify-content: center;
+    height: 188px;
+    max-width: 1000px;
+    align-items: center;
+    margin: auto;
+}
+.spimage{
+    height:74%;
+    margin: 12px;
+}
+
+#footer {
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+
+
+}

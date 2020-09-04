@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+    title Your Dance Academy
+    block style
+    block scripts
+  body
+    nav#navbar
+      ul
+        div#logo-cont
+          div#logo
+            img(src="/static/img/logo.png")
+            h2 YDA 
+          div#name
+            p Your Dance Academy
+        li #[a(href="/") home]
+        li #[a(href="/") about]
+        li #[a(href="/contact") contact us]
+        li #[a(href="/") class info]
+        li #[a(href="/") services]
+    block content
+    footer#footer
+        | Copyright © 2020 Your Dance Academy | All Rights Reserved          
