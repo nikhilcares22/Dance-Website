@@ -43,11 +43,10 @@ app.post('/contact', (req, res) => {
 
     var myData = new Contact(req.body);
     myData.save().then(() => {
-            res.send("this item has been saved to the database")
-        }).catch(() => {
-            res.status(400).send("not saved ")
-        })
-        // res.status(200).render('contact.pug');
+        res.send("this item has been saved to the database")
+    }).catch(() => {
+        res.status(400).send("not saved ")
+    })
 });
 
 
