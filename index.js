@@ -20,6 +20,7 @@ var contactSchema = new mongoose.Schema({
 });
 
 var Contact = mongoose.model('Contact', contactSchema);
+var nikhi = true;
 
 
 // EXPRESS SPEIFIC STUFF
